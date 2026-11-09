@@ -21,7 +21,7 @@ const poolFdw = new Pool({
     port: 5432,
     database: 'juego',
     user: 'postgres',
-    password: 'CLAVE_DEL_SERVIDOR_A', // <-- cámbiala por la clave de tu Postgres del puerto 5432
+    password: '123', // <-- cámbiala por la clave de tu Postgres del puerto 5432
     // Solo en este pool: bigint (OID 20) como número. No afecta a CockroachDB.
     types: {
         getTypeParser: (oid, format) =>
